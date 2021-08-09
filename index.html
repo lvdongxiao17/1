@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>吉利汽车-星瑞</title>
+  <link rel="stylesheet" href="./zhuti.css">
+  <link rel="stylesheet" href="./swiper-bundle.min.css">
+  <script src="./font_2732041_15pfntuc0vw/iconfont.js"></script>
+</head>
+
+<body>
+  <div class="box">
+    <div class="tou">
+      <img src="./img/img_01.jpg" alt="">
+    </div>
+    <div class="denglu">
+      <img src="./img/img_02.jpg" alt="">
+      <form action="" id="baoming">
+        <span class="aa">*</span> <span class="bb">姓名</span> <input type="text" placeholder="请输入您的姓名" class="xing" id="name"><br>
+        <span class="aa">*</span> <span class="bb">电话</span> <input type="text" placeholder="请输入您的电话" class="xing" id="phone">
+        <div class="form-group">
+        <span class="aa">*</span> <span class="bb ">城市</span>
+        <span id="j1" class="jingxiao xing">请选择经销商地区</span>
+
+        </select><br>
+        <span class="aa" id="aaa">*</span> <span class="bb ">经销商</span>
+        <select name="" id="j2" class="jingxiao xing">
+          <option value id="option2">请选择经销商</option>
+          <option value id="option"></option>
+        </select><br>
+        <div id="button">
+          <a href="javascript:;" id="button1">立即报名</a>
+        </div>
+        <div id="bei">
+          <div id="tankuang">
+            <p><span>
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon-icon-test"></use>
+                </svg>
+              </span>警告</p>
+            <p id="p2">请输入您的姓名</p>
+          </div>
+        </div>
+        <div id="bei2">
+          <div id="tankuang2">
+            <p><span>
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon-chenggong"></use>
+                </svg>
+              </span>成功</p>
+            <p id="p3">报名成功</p>
+          </div>
+        </div>
+
+
+    </div>
+    <div id="cs">
+      <div class="zz">
+        <div class="ll">省份</div>
+        <div class="ll">城市</div>
+        <div id="xx">x</div>
+      </div>
+      <ul id="sheng" >
+        <li id="s01">安徽省</li>
+        <li id="s02">江苏省</li>
+        <li id="s03">江西省</li>
+        <li id="s04">浙江省</li>
+        <li id="s05">上海市</li>
+      </ul>
+      <ul id="chengs">
+        <li id="k01">宣城市</li>
+        <li id="k02">芜湖市</li>
+        <li id="k03">铜陵市</li>
+        <li id="k04">马鞍山市</li>
+        <li id="k05">六安市</li>
+        <li id="k06">黄山市</li>
+        <li id="k07">淮南市</li>
+        <li id="k08">合肥市</li>
+      </ul>
+      <ul id="chengs2">
+        <li id="k09">无锡市</li>
+        <li id="k10">镇江市</li>
+        <li id="k11">苏州市</li>
+      </ul>
+      <ul id="chengs3">
+        <li id="k12">抚州市</li>
+      </ul>
+      <ul id="chengs4">
+        <li id="k13">杭州市</li>
+      </ul>
+      <ul id="chengs5">
+        <li id="k14">闵行区</li>
+      </ul>
+    </div>
+    </form>
+    <div class="zhong">
+      <img src="./img/img_03.jpg" alt="">
+    </div>
+    <div class="lun">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/swiper1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./img/swiper2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./img/swiper3.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./img/swiper4.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./img/swiper5.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./img/swiper6.jpg" alt=""></div>
+        </div>
+
+
+
+      </div>
+    </div>
+    <div class="wei">
+      <img src="./img/img_05.jpg" alt="">
+    </div>
+  </div>
+  <a href="" id="toTop">Top</a>
+
+</body>
+<script src="./swiper-bundle.min.js"></script>
+<script src="./jquery.min.js"></script>
+<script src="./chengshi.js"></script>
+<script src="./cityAndPro.js"></script>
+<script src="./xuanze.js"></script>
+<script>
+  var mySwiper = new Swiper('.swiper-container', {
+    direction: 'horizontal', // 横向切换选项
+    loop: true, // 循环模式选项
+
+    autoplay: true,//自动播放
+    autoplay: {
+      delay: 2000,
+      stopOnLastSlide: false,
+      disableOnInteraction: true,
+    },
+
+  })
+</script>
+
+</html>
